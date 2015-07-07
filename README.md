@@ -1,3 +1,5 @@
+Fork for android using externatcachedirectory
+
 cordova-imagePicker
 ===================
 
