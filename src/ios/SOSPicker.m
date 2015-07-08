@@ -29,7 +29,7 @@
 	ELCAlbumPickerController *albumController = [[ELCAlbumPickerController alloc] init];
 	
 	if (maximumImagesCount == 1) {
-      albumController.immediateReturn = true;
+      albumController.immediateReturn = false;
       albumController.singleSelection = true;
    } else {
       albumController.immediateReturn = false;
