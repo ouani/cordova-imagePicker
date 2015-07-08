@@ -149,8 +149,8 @@
         }
     }
     if (self.immediateReturn) {
-        //NSArray *singleAssetArray = @[asset.asset];
-        //[(NSObject *)self.parent performSelector:@selector(selectedAssets:) withObject:singleAssetArray afterDelay:0];
+        NSArray *singleAssetArray = @[asset.asset];
+        [(NSObject *)self.parent performSelector:@selector(selectedAssets:) withObject:singleAssetArray afterDelay:0];
     }
 }
 
