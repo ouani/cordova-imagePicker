@@ -200,9 +200,9 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
             alert.show();
         } else if (isChecked) {
             fileNames.put(name, new Integer(rotation));
-            if (maxImageCount == 1) {
-                this.selectClicked(null);
-            } else {
+            //if (maxImageCount == 1) {
+                //this.selectClicked(null);
+            //} else {
                 maxImages--;
                 ImageView imageView = (ImageView)view;
                 if (android.os.Build.VERSION.SDK_INT>=16) {
@@ -211,7 +211,7 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
                   imageView.setAlpha(128);
                 }
                 view.setBackgroundColor(selectedColor);
-            }
+            //}
         } else {
             fileNames.remove(name);
             maxImages++;
