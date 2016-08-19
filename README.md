@@ -1,5 +1,9 @@
 Fork for android using externatcachedirectory
 
+Fix on maxImagesCount glitch
+
+Fix on permission model asking
+
 cordova-imagePicker
 ===================
 
